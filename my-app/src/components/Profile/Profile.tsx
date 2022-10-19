@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { nanoid } from "nanoid";
 import { ConteinerBox } from "../../commonStyle/Common.styled";
+
 type ProfileProps = {
   data: {
     username: string;
